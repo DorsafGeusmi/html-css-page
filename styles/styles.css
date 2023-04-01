@@ -11,7 +11,7 @@
 	position: relative;
 
 }
-.header:before{
+.header::before{
 	content: "";
 	background-color: #e1b1dc;
 	width: 100%;
@@ -80,4 +80,35 @@ ul li {
 	margin-top: -8px;
 
   }
+ 
+ footer{
+ 	display: flex;
+ 	margin-left: 5px;
+ 	background-color: black;
+ 	color: white;
+
+ }
+ .company, .gethelp, .follow {
+ 	font-weight: bold;
+ 	margin-bottom: 30px;
+ 	position: relative;
+ 	
+
+ }
+
+  .company::before, .gethelp::before, .follow::before{
+ 	content: '';
+ 	background-color: #e1b1dc;
+	width: 70px;
+	height: 5px;
+	position: absolute;
+	margin-top: 18px;
+ }
+
+  
+ dl dt{
+ 	margin-left: 300px;
+ 	margin-top: 15px;
+
+ }
  
